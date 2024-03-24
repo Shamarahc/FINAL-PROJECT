@@ -1,0 +1,15 @@
+body {
+    text-align:center;
+    background-image:url("https://media.threatpost.com/wp-content/uploads/sites/103/2020/09/29191013/HTTPS-Padlock-small.jpg");
+    background-size: cover;
+    font-size:22px;
+    color:black;
+}
+
+#box {
+    height:240px;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    padding:10px;
+   
+}

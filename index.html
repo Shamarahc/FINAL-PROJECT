@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The Travalers</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+  <br><br><br>
+
+
+  <div id="box">
+        <br><b><p> Please enter password to view the website:</p>
+        <p> Password: <input id="passwordBox" type="password"/>
+          <br><br><br></b>
+        <a href="app.html" onclick="return confirmPassword();">
+          Click Here to Enter Website! </a>
+        </p></div>
+
+        <br><br>
+
+        <button onclick="hintExpected()"> Hint 1 </button>
+        <button onclick="nextHint()"> Hint 2</button>
+      
+        <script>
+
+          function hintExpected () {
+            alert ("The password starts with each of the YGT members FIRST name");
+
+          }
+          function nextHint () {
+            alert ("Shamarah, MJ, Tamia")
+          }
+
+
+
+      function confirmPassword() {
+        var password = document.getElementById("passwordBox");
+       var passwordText = password.value;
+        if (passwordText == "SMT"){
+          return true;
+        }
+        alert ("Access denied! Incorrect Password");
+        alert ("Click the hints if needed.");
+        return false;
+      } 
+          </script>
+        
+      
+</body>
+</html>
+        
+<!--app html. here we will have the authentication to enter our website. title name, authentication
+name can be the islanders or what ever is selected-->
